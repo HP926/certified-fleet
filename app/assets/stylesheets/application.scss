@@ -1,0 +1,74 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+/*#page-top > header > div {
+
+     background-image: url('certified-fleet.png');
+}*/
+
+#container {
+    background-color: green;
+}
+
+/*#header-logo {
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: bolder;
+    color: blue;
+    outline-color: white;
+    outline-width: 2px;*/
+
+#page-top > nav > div > div.navbar-header.page-scroll > a {
+ font-family: 'Ubuntu';
+  font-size: 33px;
+  font-style: italic;
+  font-weight: 100;
+  -webkit-text-stroke: 0.5px white;
+   color: blue;
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+
+}
+
+.name {
+  font-family: 'Ubuntu';
+  font-size: 33px;
+  font-style: italic;
+  font-weight: 100;
+  -webkit-text-stroke: 0.5px white;
+   color: blue;
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+       margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.hours {
+  font-size: 50px;
+  margin-left: 50px;
+  text-decoration: underline;
+  text-align: center;
+}
